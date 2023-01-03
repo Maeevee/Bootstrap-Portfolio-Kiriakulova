@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+:root{
+    --color-body: #682760dd;
+    --color-nav: #ae73a9;
+    --color-link: #f8e8f4;
+    --color-hover: #61196e;
+    --color-heading:
+    --color-text:
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: var(--color-body);
+    font-family: 'Exo 2', sans-serif;
+}
+
+/* General styles */
+
+h1, h2, h3, h4, h5, h6{
+    color: var(--color-link);
+    font-weight: 700;
+}
+
+a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+img{
+    width: 100%;
+}
+
+.full-height{
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* NavBar */
+
+nav{
+    background: linear-gradient(rgba(174, 115, 169,     0.4), rgba(45, 23, 56, 0.4)), url(../images/pexels-vlad-kovriga-339119.jpg);
+    background-size: cover;
+}
+
+.navbar .container .nav-item .nav-link{
+    font-weight: 700;
+    color: var(--color-link);
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 1s;
+}
+
+.navbar .container .nav-item .nav-link:hover{
+    color: var(--color-hover);
+}
+
+@media (min-width: 992px) {
+
+    .navbar{
+        min-height: 100vh;
+        width: 250px;
+        position: fixed;
+    }
+    
+    .navbar-brand img{
+        border: 5px solid var(--color-hover);
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* #162e34
+    #144040
+    #497162
+    #c3d279
+    #e2b337 */
