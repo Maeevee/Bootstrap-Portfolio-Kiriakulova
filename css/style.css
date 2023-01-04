@@ -30,6 +30,10 @@ a{
     transition: 0.5s;
 }
 
+p, li{
+    color: #fff;
+}
+
 img{
     width: 100%;
 }
@@ -81,8 +85,6 @@ div.jumbotron h1::after{
     color: var(--color-link);
     font-weight: 600;
 }
-
-
 
 
 @media (min-width: 992px) {
