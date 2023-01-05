@@ -5,8 +5,6 @@
     --color-nav: #ae73a9;
     --color-link: #f8e8f4;
     --color-hover: #61196e;
-    --color-heading:
-    --color-text:
 }
 
 html{
@@ -30,8 +28,9 @@ a{
     transition: 0.5s;
 }
 
-p, li{
+p{
     color: #fff;
+    font-size: 18px;
 }
 
 img{
@@ -84,6 +83,16 @@ div.jumbotron h1::after{
 .lead{
     color: var(--color-link);
     font-weight: 600;
+}
+
+/* Skills */
+
+#skills p{
+    font-size: 25px;
+}
+
+.progress-bar{
+    background-color: rgb(55, 6, 55);
 }
 
 
