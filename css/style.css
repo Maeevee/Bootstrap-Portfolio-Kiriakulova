@@ -104,8 +104,22 @@ form{
     border-radius: 7px;
 }
 
+/* Footer */
 
+i{
+    color: #fff;
+    font-size: 24px;
+    transition: 0.5s;
+}
 
+footer span{
+    color: #9e8c9d;
+}
+
+footer div.row i:hover{
+    color: var(--color-hover);
+    filter: drop-shadow(1px 1px 6px #b499ba);
+}
 
 @media (min-width: 992px) {
 
