@@ -46,6 +46,7 @@ img{
     justify-content: center;
 }
 
+
 /* NavBar */
 
 nav{
@@ -93,6 +94,21 @@ div.jumbotron h1::after{
 
 .progress-bar{
     background-color: rgb(55, 6, 55);
+}
+
+/* Footer */
+
+i{
+    color: #fff;
+    font-size: 24px;
+}
+
+span{
+    color: #9e8c9d;
+}
+
+footer a i:hover{
+    color: var(--color-link);
 }
 
 
