@@ -96,20 +96,15 @@ div.jumbotron h1::after{
     background-color: rgb(55, 6, 55);
 }
 
-/* Footer */
+/* Contacts */
 
-i{
-    color: #fff;
-    font-size: 24px;
+form{
+    box-shadow: 0 2px 20px -5px rgba(0,0,0,0.5);
+    background-color: var(--color-nav);
+    border-radius: 7px;
 }
 
-span{
-    color: #9e8c9d;
-}
 
-footer a i:hover{
-    color: var(--color-link);
-}
 
 
 @media (min-width: 992px) {
@@ -129,26 +124,3 @@ footer a i:hover{
         margin-left: 250px;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    /* #162e34
-    #144040
-    #497162
-    #c3d279
-    #e2b337 */
